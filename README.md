@@ -4,15 +4,26 @@
    <head>
       <meta charset="UTF-8">
       <title>O Mercado Deller</title>
+      <link rel="stylesheet" href="style.css">
+   
       <style>
-          p{
+         body {
+            background: #61a0da  
+         }
+         
+         p{
             text-align: center
          }
+         
+         em strong {
+            color: white;
+         }
       </style>
+   
    </head>
  
    <body>
-      <h1 style="text-align: center">O Mercado Deller</h1>
+      <h1 style="text-align: center>O Mercado Deller</h1>
   
       <p>Localizado no centro da cidade, Traz para os clientes produtos para o dia a dia com descontos e com o menor preço dacidade,tudo que você                 precisar você encontra aqui, no <strong>Mercado Deller</strong>.</p>
   
