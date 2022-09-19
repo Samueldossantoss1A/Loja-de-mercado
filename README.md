@@ -7,7 +7,6 @@
       <link rel="stylesheet" href="style.css">
    
       <style>
-      
          body {
             background: #61a0da  
          }
@@ -32,8 +31,11 @@
             color: #FF0000;
          }
          
+         .itens{
+            font-style: italic
+         }
+         
       </style>
-   
    </head>
  
    <body>
@@ -46,6 +48,14 @@
       <p id="missao"><em>Nossa missão é: <strong>"Dar tudo oque o cliente precisa com um preço mais barato"</strong>.</em></p>
   
       <p>Oferecemos nesse site um jeito de você fazer sua compra sem precisar sair de casa e com um preço bem mais barato.</p>
-   </body>
    
+      <h2>Beneficios</h2>
+   
+      <ul>
+         <li class-"itens">Atendimento aos Clientes</li>
+         <li class-"itens">Espaço diferenciado</li>
+         <li class-"itens">Localização</li>
+         <li class-"itens">Profissionais qualificados</li>
+      <ul>
+   </body>   
 </html>
