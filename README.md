@@ -92,7 +92,6 @@ Index.html
     }
 
 ----------------produtos.html--------------------------
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -105,7 +104,7 @@ Index.html
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img src="logo.png"></h1>
+				<h1><img src="logo.jpg"></h1>
 
 				<nav>
 					<ul>
@@ -120,22 +119,19 @@ Index.html
 		<main>
 			<ul class="produtos">
 				<li>
-					<h2>Cabelo</h2>
-					<img src="cabelo.jpg">
-					<p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
-					<p class="produto-preco">R$ 25,00</p>
+					<h2>Frutas</h2>
+					<img src="frutas.jpg">
+					<p class="produto-descricao"></p>
 				</li>
 				<li>
-					<h2>Barba</h2>
-					<img src="barba.jpg">
-					<p class="produto-descricao">Corte e desenho profissional de barba</p>
-					<p class="produto-preco">R$ 18,00</p>
+					<h2>Carnes</h2>
+					<img src="carnes.jpg">
+					<p class="produto-descricao"></p>
 				</li>
 				<li>
-					<h2>Cabelo + Barba</h2>
-					<img src="cabelo+barba.jpg">
-					<p class="produto-descricao">Pacote completo de cabelo e barba</p>
-					<p class="produto-preco">R$ 35,00</p>
+					<h2>Produtos de limpeza</h2>
+					<img src="produtosdelimpeza.jpg">
+					<p class="produto-descricao"></p>
 				</li>
 			</ul>
 		</main>
@@ -145,7 +141,6 @@ Index.html
 			<p class="copyright">&copy; Copyright Mercado Deller - 2022</p>
 	</body>
 </html>
-
 
 
 ----------------produtos.css--------------------------
