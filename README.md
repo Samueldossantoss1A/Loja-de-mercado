@@ -104,7 +104,7 @@ Index.html
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img src="logo.jpg"></h1>
+				<h1><img src="logo.png"></h1>
 
 				<nav>
 					<ul>
@@ -121,17 +121,17 @@ Index.html
 				<li>
 					<h2>Frutas</h2>
 					<img src="frutas.jpg">
-					<p class="produto-descricao"></p>
+					<p class="produto-descricao">Todos os tipos de frutas</p>
 				</li>
 				<li>
 					<h2>Carnes</h2>
 					<img src="carnes.jpg">
-					<p class="produto-descricao"></p>
+					<p class="produto-descricao">Carnes de todos os tipos</p>
 				</li>
 				<li>
-					<h2>Produtos de limpeza</h2>
+					<h2>Produtos de Limpeza</h2>
 					<img src="produtosdelimpeza.jpg">
-					<p class="produto-descricao"></p>
+					<p class="produto-descricao">Protudos de limpezas de todos os tipos</p>
 				</li>
 			</ul>
 		</main>
@@ -139,12 +139,10 @@ Index.html
 		<footer>
 			<img src="logo-branco.png">
 			<p class="copyright">&copy; Copyright Mercado Deller - 2022</p>
+		</footer>
 	</body>
 </html>
-
-
 ----------------produtos.css--------------------------
-
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -192,7 +190,7 @@ nav a:hover {
 	width: 30%;
 	vertical-align: top;
 	margin: 0 1.5%;
-	padding: 30px 20px;
+	padding: 30px 25px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
@@ -207,22 +205,16 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 25px;
 }
 
 .produtos h2 {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
 }
 
 .produto-descricao {
-	font-size: 18px;
-}
-
-.produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
+	font-size: 20px;
 }
 
 footer {
@@ -233,6 +225,56 @@ footer {
 
 .copyright {
 	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+	font-size: 100px;
+	margin: 100px 0 0;
+}
+-----------------reset.css--------------------
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
